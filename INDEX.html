@@ -1,0 +1,31 @@
+import React from "react";
+
+export default function LandingPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 flex flex-col items-center p-6 text-white">
+      <header className="text-center py-12">
+        <h1 className="text-5xl font-extrabold drop-shadow-lg">AI-Powered Student Analytics</h1>
+        <p className="text-lg mt-4 opacity-90">Empowering Schools with Data-Driven Insights for Smarter Education</p>
+      </header>
+      
+      <section className="bg-white text-gray-900 shadow-2xl p-8 rounded-2xl w-full max-w-3xl text-center">
+        <h2 className="text-3xl font-bold">Why Choose Us?</h2>
+        <ul className="mt-6 space-y-4 text-lg font-medium">
+          <li className="flex items-center gap-2"><span className="text-blue-600 text-2xl">📊</span> Real-time Student Performance Tracking</li>
+          <li className="flex items-center gap-2"><span className="text-green-600 text-2xl">🚀</span> AI-Powered Personalized Learning</li>
+          <li className="flex items-center gap-2"><span className="text-red-600 text-2xl">🔍</span> Early Risk Detection & Alerts</li>
+          <li className="flex items-center gap-2"><span className="text-yellow-600 text-2xl">📈</span> Data-Driven Insights for Educators</li>
+          <li className="flex items-center gap-2"><span className="text-purple-600 text-2xl">🔗</span> Seamless Integration with School Systems</li>
+        </ul>
+      </section>
+      
+      <section className="mt-10 text-center">
+        <h2 className="text-3xl font-bold">Get Started</h2>
+        <p className="text-lg mt-2 opacity-90">Schedule a free demo and transform education today!</p>
+        <button className="mt-6 px-8 py-4 bg-yellow-500 text-gray-900 font-bold text-lg rounded-full shadow-xl hover:bg-yellow-400 transition duration-300">Request a Demo</button>
+      </section>
+      
+      <footer className="mt-12 text-white text-sm opacity-80">© 2025 Your Startup Name. All Rights Reserved.</footer>
+    </div>
+  );
+}
